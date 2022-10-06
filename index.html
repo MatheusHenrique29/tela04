@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/estilos.css">
+   <title>Banco</title>
+</head>
+<body>
+    <main>              
+            <header>
+                <canvas id = "linhaazul"></canvas>
+                <h1 id = 'conta'>Conta Corrente</h1>
+                <img src="img/Captura de tela 2022-09-29 152332.png" id ="treslinhas" alt="">           
+            </header> 
+                 
+         <div>
+             <div id = "subir">
+
+             <canvas id = 'caixa_d'></canvas>
+             <p id = 'dinheiro'>R$ 12.345,00</p> 
+             
+            
+            </div>
+
+                <div  id = 'opcoes'>
+                    <div id="blocos">
+                        <canvas id = 'bloco_azul'></canvas>
+                        <canvas id = 'bloco_azul'></canvas>
+                        <canvas id = 'bloco_azul'></canvas>    
+                        <canvas id = 'bloco_azul'></canvas>
+                    </div>
+                    <div id = "icones">
+
+                        <img src="img/cartao.svg" id = 'iconesd' alt="icone de cartao">
+                        <img src="img/transferir.svg"  id = 'iconesd' alt="icone tranfeir">
+                        <img src="img/gastos.svg" id = 'iconesd' alt="icone gastos">
+                        <img src="img/boleto.svg"  id = 'iconese' alt="icone boleto">
+                    </div>
+                    <div id = "divisoes">
+                        <p id = "p_divisoes">Cartão</p>
+                        <p id = "p_divisoes">Boleto</p>
+                        <p id = "pt_divisoes">Transferir</p>
+                        <p id = "pg_divisoes">Gastos</p>
+                    </div>
+                    <p id ="p_translacoes">Translações recente</p>
+                </div>
+                <div id = translacoes_mud>
+                    <canvas id = "translacoes_rec"></canvas>
+                    <div id="cont_transacoes">
+                        
+                        <div id = "supermercado">
+                            <canvas id="negativo"></canvas>
+                            <canvas id="subtracao"></canvas>
+                            <p id="p_valor1">R$ 25,50</p>
+                            <p id="p_data1">11/12</p>
+                            <p id="p_desc1">Supermercado</p>
+                            <p id="p_hora1">13:32</p>
+                        </div>
+                        
+                        <canvas id="linha"></canvas>
+                        <div>    
+                            <canvas id="negativo2"></canvas>
+                            <canvas id="subtracao1"></canvas>
+                            <p id="p_valor2">R$ 344,00</p>
+                            <p id="p_data2">09/12</p>
+                            <p id="p_desc1">Shopping</p>
+                            <p id="p_hora1">13:32</p>
+                        </div>
+                        
+                        <canvas id="linha"></canvas>
+                        <div>
+                            <canvas id="negativo3"></canvas>
+                            <canvas id="postivo"></canvas>
+                            <canvas id="line4"></canvas>
+                            <p id="p_valor2">R$ 149,00</p>
+                            <p id="p_data2">09/12</p>
+                            <p id="p_desc1">Pix *4442 Ana</p>
+                            <p id="p_hora1">13:32</p>
+                        </div>
+                        
+                        <canvas id="linha"></canvas>
+                        <div>
+                            <canvas id="negativo2"></canvas>
+                            <canvas id="subtracao1"></canvas>
+                            <p id="p_valor2">R$ 149,00</p>
+                            <p id="p_data2">08/12</p>
+                            <p id="p_desc1">Farmácia</p>
+                            <p id="p_hora1">13:32</p>
+                        </div>
+                        
+                        <canvas id="linha"></canvas>
+                        
+                        <div>
+                            <canvas id="negativo2"></canvas>
+                            <canvas id="subtracao1"></canvas>
+                            <p id="p_valor2">R$ 23,43</p>
+                            <p id="p_data2">08/12</p>
+                            <p id="p_desc1">Supermercado</p>
+                            <p id="p_hora1">13:32</p>
+                        </div>
+                        
+                        <canvas id="linha"></canvas>
+                        
+                        <div>
+                            
+                            <canvas id="negativo3"></canvas>
+                            <canvas id="postivo"></canvas>
+                            <canvas id="line4"></canvas>
+                            <p id="p_valor2">R$ 2999,00</p>
+                            <p id="p_data2">05/12</p>
+                            <p id="p_desc1">Transferência *0223</p>
+                            <p id="p_hora1">13:32</p>
+                        </div>
+                        
+                        <canvas id="linha"></canvas>
+                        
+                        <div>
+                            
+                            <canvas id="negativo2"></canvas>
+                            <canvas id="subtracao1"></canvas>
+                            <p id="p_valor2">R$ 23,43</p>
+                            <p id="p_data2">02/12</p>
+                            <p id="p_desc1">Supermercado</p>
+                            <p id="p_hora1">13:32</p> 
+                        </div>
+                        
+                    </div>
+                </div>
+                </main>
+</body>
+</html>
